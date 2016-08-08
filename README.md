@@ -1,6 +1,6 @@
 # GMLauncher
 
-A Game Launcher with GameMaker:Studio
+A Game Launcher Example with GameMaker:Studio
 
 # 这东西有啥用
 
