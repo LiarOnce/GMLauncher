@@ -25,10 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text = "The GameMaker Launcher Example"
-draw_set_font(font0);
-draw_set_colour(c_purple);
-draw_text(x,y,text);
+            <string>text = "The GameMaker Launcher Example" //标题
+draw_set_font(font0);    //设置字体
+draw_set_colour(c_purple);   //设置颜色（紫色）
+draw_text(x,y,text);   //绘制标题
 </string>
           </argument>
         </arguments>

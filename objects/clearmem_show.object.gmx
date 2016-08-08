@@ -26,11 +26,13 @@
           <argument>
             <kind>1</kind>
             <string>cleanmem_init(0);
+//初始化CleanMem,在GM8.1及GMS中应为cleanmem_init(0).
+//在GM8.0及以下版本则为cleanmem_init()
 
-alarm[0]=5;
-count = 0;
-active = true;
-surf = surface_create(300,75);
+alarm[0]=5;   //延时5秒
+count = 0;    //创建count变量
+active = true;  //设置active为true
+surf = surface_create(300,75);   //这个或许可以去掉
 </string>
           </argument>
         </arguments>
@@ -57,6 +59,7 @@ surf = surface_create(300,75);
 sprite_create_from_surface(surf,x,y,300,300,true,true,150,150);
 surface_reset_target();
 surface_free(surf);
+//以上函数可能不需要
 
 count += 1;
 if (active)
@@ -84,8 +87,8 @@ if (active)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>cleanmem()
-cleanmem_init(1)
+            <string>cleanmem() //清理精灵占用
+cleanmem_init(1)  //释放dll，解除dll占用
 
 </string>
           </argument>

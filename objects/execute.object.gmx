@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>ExecuteShell(program_directory+"\test.exe",0)
-
+//运行外部exe程序（请在导出后测试）
 </string>
           </argument>
         </arguments>
