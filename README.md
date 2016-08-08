@@ -14,6 +14,10 @@ A Game Launcher Example with GameMaker:Studio
 
 ![icon](http://pic.yupoo.com/liaronce/FL9VMrwL/pGrAY.png)
 
+# 注意
+
+需要编译导出后才能运行外部程序，否则program_directory的目录会认定为GMS的Runner目录，会出现没有这个文件的错误也就很正常了。
+
 # 其中用到的插件
 ExecuteShell: https://marketplace.yoyogames.com/assets/575/execute-shell
 
