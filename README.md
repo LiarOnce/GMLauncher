@@ -1,5 +1,5 @@
 # GMLauncher
-<<<<<<< HEAD
+
 A Game Launcher with GameMaker:Studio
 
 # 这东西有啥用
@@ -23,6 +23,3 @@ http://gmc.yoyogames.com/index.php?showtopic=438215
 # 开源许可
 
 MIT License
-=======
-A Game Launcher Example with GameMaker:Studio
->>>>>>> 559feac1a2a5b6425c6041db16638af95a6c40cd
