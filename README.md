@@ -2,6 +2,11 @@
 
 A Game Launcher Example with GameMaker:Studio
 
+# 版本更新
+
+Version 1.1.0.0：
+新增Simple Version Checker插件，用于检查更新
+
 # 这东西有啥用
 
 只是用GMS制作的启动器范例而已
@@ -23,6 +28,8 @@ ExecuteShell: https://marketplace.yoyogames.com/assets/575/execute-shell
 
 Cleanmem:
 http://gmc.yoyogames.com/index.php?showtopic=438215
+
+Simple Version Checker：https://marketplace.yoyogames.com/assets/3194/simple-version-checker
 
 # 开源许可
 

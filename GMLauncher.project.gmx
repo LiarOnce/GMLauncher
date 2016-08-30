@@ -58,6 +58,7 @@
   </datafiles>
   <NewExtensions>
     <extension index="0">extensions\Execute Shell</extension>
+    <extension index="1">extensions\Simple Version Checker</extension>
   </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
@@ -75,6 +76,10 @@
       <script>scripts\cleanmem.gml</script>
       <script>scripts\cleanmem_get_mem.gml</script>
     </scripts>
+    <script>scripts\textures_load.gml</script>
+    <scripts name="Simple Version Checker">
+      <script>scripts\file_check.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -86,6 +91,10 @@
       <object>objects\clean</object>
     </objects>
     <object>objects\execute</object>
+    <objects name="version">
+      <object>objects\obj_version</object>
+      <object>objects\ver_title</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
