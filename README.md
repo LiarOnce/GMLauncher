@@ -17,7 +17,7 @@ Version 1.1.0.0：
 
 # 截图
 
-![icon](http://pic.yupoo.com/liaronce/FL9VMrwL/pGrAY.png)
+![icon](http://pic.yupoo.com/liaronce/FOwQDLGi/kpMyn.png)
 
 # 注意
 
