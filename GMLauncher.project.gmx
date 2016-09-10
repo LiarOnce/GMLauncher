@@ -94,6 +94,7 @@
     <objects name="version">
       <object>objects\obj_version</object>
       <object>objects\ver_title</object>
+      <object>objects\object6</object>
     </objects>
   </objects>
   <rooms name="rooms">

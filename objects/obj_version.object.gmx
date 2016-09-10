@@ -28,9 +28,9 @@
             <string>
 //You will want to use your own URL's - The included one's below are just for demonstration purposes
 localpath = 'version.txt';
-webpath = 'http://www.nitrousclan.com/gml/testing/version.txt';
+webpath = 'http://liaronce.gq/loarch/version.txt';
 webtemp = 'temp\version.txt';
-patchpath = 'http://www.nitrousclan.com/gml/testing/notes.txt';
+patchpath = 'http://liaronce.gq/loarch/notes.txt';
 patchtemp = 'temp\notes.txt';
 patchlocal = 'notes.txt'
 http_get_file(webpath,webtemp);
@@ -39,16 +39,18 @@ http_get_file(patchpath,patchlocal);
 localversion = ''; //This holds the version from the current version of the game the user owns
 releaseversion = ''; //This holds the latest version value from the web
 patchnotes = ''; //Stores the lates notes.txt file info downloaded from the web
-drawUpdate = false; //If the local version number does not match the web version number, draw update message
+globalvar drawUpdate; //If the local version number does not match the web version number, draw update message
+drawUpdate = false;
 updatecheck = false;
 
 //Create a version.txt file - USED ONLY FOR DEMONSTRATION PURPOSES! YOU SHOULD CREATE YOUR OWN version.txt FILE TO BE PUSHED WITH YOUR BUILDS
 if (!file_exists(localpath)) {
     var firstcheck;
     firstcheck = file_text_open_write(localpath);
-    file_text_write_string(firstcheck,'2.3.4'); //Will set the version.txt file to an older version as the web file
+    file_text_write_string(firstcheck,'1.0.0'); //Will set the version.txt file to an older version as the web file
     file_text_close(firstcheck);
 }
+
 </string>
           </argument>
         </arguments>
@@ -104,6 +106,9 @@ if (keyboard_check_pressed(ord('R'))) {
 //you can check for updates again
 file_delete('temp\version.txt');
 file_delete('temp\notes.txt');
+//Debug
+//file_delete('version.txt');
+//file_delete('notes.txt');
 </string>
           </argument>
         </arguments>
