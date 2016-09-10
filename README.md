@@ -3,6 +3,8 @@
 A Game Launcher Example with GameMaker:Studio
 
 # 版本更新
+Version 1.2.0.0：
+支持下载更新
 
 Version 1.1.0.0：
 新增Simple Version Checker插件，用于检查更新
